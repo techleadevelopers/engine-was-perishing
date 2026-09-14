@@ -53,7 +53,7 @@ export function TopBar(props: Props) {
               }
             }}
             placeholder="0.0.0.0"
-            className="h-9 max-w-[260px] border-border bg-background/70 font-mono text-sm tracking-widest text-cyan focus-visible:ring-neon"
+            className="h-9 w-[200px] shrink-0 border-border bg-background/70 font-mono text-sm tracking-widest text-cyan focus-visible:ring-neon"
           />
           <Button
             onClick={onRun}
